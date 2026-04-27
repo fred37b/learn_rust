@@ -1,5 +1,7 @@
 # learn_rust
 
+[[_TOC_]]
+
 # Variable
 
 ```rust
@@ -17,4 +19,23 @@ let user_name : String = "Bob123".to_string() ;
 let mut name: &str = "Alice";
 // Affiche sur la console
 println!("Hello {}!", name);
+```
+
+# Control et boucle
+
+# if
+
+```rust
+let x = 3;
+
+if x < 10 {
+	println!("{} is less than 10", x);
+} else {
+	println!("{} is greater than or equal to 10", x);
+}
+
+```
+
+```rust
+
 ```

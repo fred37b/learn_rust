@@ -19,4 +19,5 @@ let temperatur: f64 = 24.5;
 	let user_name : String = "Bob123".to_string() ;
 let mut name: &str = "Alice";  // Ne peut contenir que du texte
 
+println!("Hello {}!", name);
 ```

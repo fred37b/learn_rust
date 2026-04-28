@@ -23,6 +23,16 @@ let user_name : String = "Bob123".to_string() ;
 let mut name: &str = "Alice";
 // Affiche sur la console
 println!("Hello {}!", name);
+
+// Conversion d'entier vers flottant
+let number: i32 = 5;
+let decimal: f64 = number as f64;
+// devient 5.0
+
+// Conversion de flottant vers entier
+let decimal: f64 = 9.7;
+let number: i32 = decimal as i32;
+// devient 9 (la partie décimale est tronquée)
 ```
 
 # Control et boucle

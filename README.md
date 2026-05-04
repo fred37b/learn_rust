@@ -33,6 +33,13 @@ let decimal: f64 = number as f64;
 let decimal: f64 = 9.7;
 let number: i32 = decimal as i32;
 // devient 9 (la partie décimale est tronquée)
+
+// Littéraux de chaîne simples (str) :
+let str1 = "hello";
+// Chaînes complètes (String) :
+let string1: String = "hello".to_string();
+let string2: String = String::from("hello");
+let string3 = "hello".to_owned();
 ```
 
 # Control et boucle

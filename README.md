@@ -117,7 +117,7 @@ fn divisible_by_three_between(min: i32, max_exclusive: i32) {
 }
 
 fn square_num(n: i32) -> i32 {
-	n * n
+	n * n // La derniere instruction sera retourne par la methode
 }
 ```
 
